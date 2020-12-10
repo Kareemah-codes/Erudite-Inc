@@ -28,6 +28,14 @@ body{
 
 .emphasized-txt{
     color:  #00506D !important ;
+    font-weight: 700 !important;
+}
+ /* emphasized txt in a dark background*/
+.d-emphasized-txt{
+     color: #d8e1e6 !important;
+     font-weight: 750 !important;
+
+   
 }
 
 /*Navigation */
@@ -150,6 +158,13 @@ body{
       padding: 20px;
   }
 
+  .au-title{
+      text-decoration: underline;
+      font-weight: 400 !important;
+      font-size: 2rem !important;
+      color: #00506D;
+  }
+
  .au-txt{
     font-weight: 350;
     font-size: 1.1rem;
@@ -166,6 +181,7 @@ body{
 
 .im-title{
     color:  #d3dee2 ;
+    font-weight: 650 !important;
 }
 
 .im-txt{
@@ -222,7 +238,7 @@ body{
 .social-icons a{
     text-decoration: none;
     padding: 10px;
-    color: #00506D;
+    color: #7c9097;
     transition: 0.5s;
 }
 
