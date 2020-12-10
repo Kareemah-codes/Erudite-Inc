@@ -49,11 +49,11 @@ body{
 
 .navbar{
      background-image: white; /* linear-gradient( to right,#FFE6D8,#feffd8); */
-    padding: 0 !important;
+      padding: 0 !important;
 }
 
 .navbar img{
-    height: 170px;
+    height: 200px;
     padding-left: 20px;
 
 }
@@ -68,7 +68,7 @@ body{
     text-align: left;
 }
 
-  /*Toggler(nav)*/
+  /*Toggler button(nav)*/
 .fa-bars{
     color: #F56342 !important;
     font-size: 25px !important;
@@ -81,13 +81,13 @@ body{
              /* CONTENTS*/
 
    /*Hero*/
-
+.hero-container{
+   padding-top: 50px;
+}
 #hero{
     background-color: #8A5041;
-    color: white;
-    padding-top: 5%;
-    margin-top: 100px;
-}
+    color: white;    
+    }
 
      /*I used the styling of hero button for all buttons*/
 .hero-btn{
@@ -223,11 +223,25 @@ body{
 
 
 
-/*Social Media /Contact Us*/
-#social-media{background-color: #ffcbad;
-    padding: 10px 0;
+
+
+/*Footer*/
+#footer{
+    background-color:   #8A5041;
+    color: white; 
+    width: 100%;
 }
 
+
+.footer-box img{
+    margin-bottom: 10px;
+}
+
+/*Social Media */
+.social-txt{
+    padding-top: 15px;
+    font-weight: bold;
+}
 #social-media p{
     font-size: 15px;
     font-weight: 600;
@@ -238,29 +252,12 @@ body{
 .social-icons a{
     text-decoration: none;
     padding: 10px;
-    color: #7c9097;
+    color: #F56342;
     transition: 0.5s;
 }
 
 .social-icons a:hover  {
     color:  white !important;
-}
-
-/*Footer*/
-#footer{
-    background-color:  #FFE6D8;
-    color: #00506D; 
-}
-
-.footer-box {
-    padding: 15px;
-}
-
-.footer-box img{
-    margin-bottom: 10px;
-}
-.footer-box fa{
-    margin-right: 8px;
 }
 
 
@@ -269,6 +266,13 @@ body{
 label {
     font-weight: 600;
     color: #555;
+}
+
+.register-container{
+    background-color: white !important;
+    box-shadow: 9px 6px 1px 0px rgba(217,217,217,0.53);
+ -webkit-box-shadow: 9px 6px 1px 0px rgba(217,217,217,0.53);
+ -moz-box-shadow: 9px 6px 1px 0px rgba(217,217,217,0.53);
 }
 
 /*Donation*/
